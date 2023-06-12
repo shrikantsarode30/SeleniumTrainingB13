@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Test]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.bymatAutomation.modulename.listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.bymatAutomation.modulename.testcases.verifyHomePageOfBymatAutomation1">
+        <methods>
+          <include name="verifyHomePageOfBYMATAutomation1"/>
+          <include name="isSkip"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bymatAutomation.modulename.testcases.verifyHomePageOfBymatAutomation1 -->
+      <class name="com.bymatAutomation.modulename.testcases.verifyHomePageOfBymatAutomation">
+        <methods>
+          <include name="verifyHomePageOfBYMATAutomation"/>
+          <include name="isSkip"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bymatAutomation.modulename.testcases.verifyHomePageOfBymatAutomation -->
+      <class name="com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining">
+        <methods>
+          <include name="isSkip"/>
+          <include name="registerUserForTheSeleniumTraining"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bymatAutomation.modulename.testcases.RegisterUserForTheSeleniumTraining -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regression Test] -->
