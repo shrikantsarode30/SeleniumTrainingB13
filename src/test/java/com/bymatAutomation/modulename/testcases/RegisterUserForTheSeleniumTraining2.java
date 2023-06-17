@@ -29,5 +29,7 @@ public class RegisterUserForTheSeleniumTraining2 extends TestBase{
 		
 		hp.navigateToInquireRegisterPage().enterUserDetails(htData);
 		
+		//Adding new Step to Test Case
+		
 	}	
 }

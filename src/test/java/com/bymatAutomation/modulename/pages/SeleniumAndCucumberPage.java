@@ -38,6 +38,8 @@ public class SeleniumAndCucumberPage extends TestBase {
 	@FindBy(xpath="	//*[text()=\"Selenium\"]")
 	private WebElement selenium_btn;
 	
+	@FindBy(xpath="	//*[text()=\"Selenium\"]") //Added this xpath to check changes in GitHub
+	private WebElement selenium_btn1;
 	
 	public SeleniumAndCucumberPage() {  //This constructor
 		
